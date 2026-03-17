@@ -2,7 +2,9 @@
 
 declare(strict_types=1);
 
-uses(Modules\Lang\Tests\TestCase::class);
+namespace Modules\Lang\Tests\Unit\Models;
+
+uses(\Modules\Lang\Tests\TestCase::class);
 
 use Modules\Lang\Models\BaseMorphPivot;
 
